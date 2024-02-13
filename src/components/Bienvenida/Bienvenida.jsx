@@ -1,6 +1,11 @@
+import { Helmet } from "react-helmet";
+
 const Bienvenida = () => {
   return (
-    <section>
+    <section className="bienvenida">
+      <Helmet>
+        <title>Engiversity</title>
+      </Helmet>
       <h1>Bienvenido a la aplicación web Engiversity</h1>
       <p>
         Este proyecto de desarrollo tecnológico del profesor Gerardo Andrés
